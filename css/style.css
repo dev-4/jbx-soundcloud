@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    -webkit-margin-before:0em;
+    -webkit-margin-after:0em;
+    padding-top: 0;
+    padding: 10px;
+    color: rgb(247,115,15);
+    text-shadow: 0 2px rgba(0,0,0,0.3);
+}
+#searchbox {
+    background-image: url("../img/sc.png");
+    background-position: center;
+    background-color: rgba(255,255,255,0.2);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 10px 5px rgba(0,0,0,0.3);
+    padding-bottom: 40px;
+    padding-top: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.fullscreen-bg {
+    position: fixed;
+    opacity: 0.1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 1920px;
+    height: 1080px;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
