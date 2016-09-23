@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
 }
 h1 {
@@ -11,17 +11,15 @@ h1 {
     -webkit-margin-after:0em;
     padding-top: 0;
     padding: 10px;
-    color: rgb(247,115,15);
-    text-shadow: 0 2px rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.7);
 }
 #searchbox {
     background-image: url("../img/sc.png");
     background-position: center;
     background-color: rgba(255,255,255,0.2);
-    background-size: 50%;
+    background-size: 60%;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.2);
-    box-shadow: 0 10px 5px rgba(0,0,0,0.3);
     padding-bottom: 40px;
     padding-top: 5px;
     margin-left: 30%;
@@ -29,7 +27,7 @@ h1 {
 }
 .fullscreen-bg {
     position: fixed;
-    opacity: 0.1;
+    opacity: 0.05;
     top: 0;
     right: 0;
     bottom: 0;
