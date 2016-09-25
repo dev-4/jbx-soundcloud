@@ -6,6 +6,7 @@ $(document).ready(function(){
  	 client_id: 'f77a15a6adfbb5035c8a8cf38e399f1e'
 	}); // client_id
 	$("#search_form").submit(function(event){
+		$(".box").fadeIn(1000)
 		event.preventDefault();
 		// Clear the Search results
 		$("#songs").html("");

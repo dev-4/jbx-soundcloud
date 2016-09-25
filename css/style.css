@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
 }
 h1 {
@@ -13,13 +13,20 @@ h1 {
     padding: 10px;
     color: rgba(0,0,0,0.7);
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Interstate-Regular.ttf);
+}
+div {
+    font-family: myFirstFont;
+}
 #searchbox {
     background-image: url("../img/sc.png");
     background-position: center;
-    background-color: rgba(255,255,255,0.2);
-    background-size: 60%;
+    background-size: 100%;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
     padding-bottom: 40px;
     padding-top: 5px;
     margin-left: 30%;
@@ -45,6 +52,30 @@ h1 {
     height: 100%;
 }
 #artwork {
-    border: 10px solid rgba(0,0,0,0.2);
+    border: 10px solid rgba(255,106,34,0.2);
     border-radius: 5px
+}
+.box {
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.hidden {
+    display: none;
+}
+#search {
+    width: 50%;
+}
+#smit {
+    width: 10%;
 }
